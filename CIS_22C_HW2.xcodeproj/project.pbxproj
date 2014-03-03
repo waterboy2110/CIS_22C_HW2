@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3EF50F4518C438A4002E9DC6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3EF50F4418C438A4002E9DC6 /* main.cpp */; };
 		3EF50F4718C438A4002E9DC6 /* CIS_22C_HW2.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3EF50F4618C438A4002E9DC6 /* CIS_22C_HW2.1 */; };
+		3EF50F5118C43971002E9DC6 /* Stack_Demo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3EF50F5018C43971002E9DC6 /* Stack_Demo.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +26,9 @@
 
 /* Begin PBXFileReference section */
 		3EF50F4118C438A4002E9DC6 /* CIS_22C_HW2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CIS_22C_HW2; sourceTree = BUILT_PRODUCTS_DIR; };
-		3EF50F4418C438A4002E9DC6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		3EF50F4618C438A4002E9DC6 /* CIS_22C_HW2.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CIS_22C_HW2.1; sourceTree = "<group>"; };
+		3EF50F4F18C43960002E9DC6 /* Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
+		3EF50F5018C43971002E9DC6 /* Stack_Demo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Stack_Demo.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +61,8 @@
 		3EF50F4318C438A4002E9DC6 /* CIS_22C_HW2 */ = {
 			isa = PBXGroup;
 			children = (
-				3EF50F4418C438A4002E9DC6 /* main.cpp */,
+				3EF50F5018C43971002E9DC6 /* Stack_Demo.cpp */,
+				3EF50F4F18C43960002E9DC6 /* Stack.h */,
 				3EF50F4618C438A4002E9DC6 /* CIS_22C_HW2.1 */,
 			);
 			path = CIS_22C_HW2;
@@ -117,7 +119,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EF50F4518C438A4002E9DC6 /* main.cpp in Sources */,
+				3EF50F5118C43971002E9DC6 /* Stack_Demo.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
